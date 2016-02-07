@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-f051947b2b0fc165a3607b8b2ab252cb19174f3b.jar" />
+    </item>
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-b2ad4aaf2fd2837642cabcc04f39493b4d80be2a.jar" />
+    </item>
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-ae29e7b06f72488fd2000d57932c75bec2b055ce.jar" />
+    </item>
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-148465e217e3bf0bcdb3e915f2db83ff726e9b89.jar" />
+    </item>
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-8ebc9e9be96a913271d5255c9afad3f82de8b9d8.jar" />
+    </item>
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.urbanairship.android/urbanairship-sdk/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="722f5bf7ff1e03d1f84ad119e03f5e42aafb6cfd">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-8f17026421bac0c94768e2865462f5806024c53f.jar" />
+    </item>
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-7153ff69e2198fed5ec18c499279671fb113e8d3.jar" />
+    </item>
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-d6506ca1c6c677875e9a0b2ce11de85b6e098b32.jar" />
+    </item>
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-12e21aedf0d2f4aaf52ed3fb3aa406ef62654f24.jar" />
+    </item>
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-2938a5fb6734e14ee027715ef37844bd0ea83986.jar" />
+    </item>
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-3fc69b36bb6e841906a67e35be0287e6eb51fb1d.jar" />
+    </item>
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-43643537b8d151b8a2dfd6c366a66b0d9ffd4866.jar" />
+    </item>
+
+</items>
