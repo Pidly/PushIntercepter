@@ -5,9 +5,9 @@ import android.content.Intent;
 
 import com.urbanairship.push.PushMessage;
 
-/**
- * Created by devinsmythe on 2/1/16.
- */
+import java.sql.SQLException;
+
+
 public class PushIntentService extends IntentService {
 
     public PushIntentService(String name) {
@@ -24,8 +24,6 @@ public class PushIntentService extends IntentService {
             case "SAVE_PUSH":
                 onSavePush(intent);
                 break;
-
-
         }
     }
 
@@ -34,7 +32,15 @@ public class PushIntentService extends IntentService {
         PushItem item = intent.getParcelableExtra("PUSH_ITEM");
 
         // save yourself
-        
+        PushItemDbHelper dbHelper = new PushItemDbHelper(getApplicationContext());
+        try {
+            dbHelper.open();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
+        //dbHelper.savePushItem(item);
+
+        dbHelper.close();
     }
 }
