@@ -45,7 +45,7 @@ public class PushIntentService extends IntentService {
         PushItemDbHelper dbHelper = new PushItemDbHelper(getApplicationContext());
         try {
             dbHelper.open();
-            //dbHelper.insertPushItem(item);
+            dbHelper.insertPushItem(item);
         } catch (SQLException e) {
             e.printStackTrace();
         }finally {

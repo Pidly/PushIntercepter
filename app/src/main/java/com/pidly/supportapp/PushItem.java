@@ -46,6 +46,10 @@ public class PushItem implements Parcelable {
         alert = message.getAlert();
         pushSentDateString = (String)message.getPushBundle().get("pushSent");
         pushReceivedDateString = "Received date time";
+
+        pushSent = Integer.parseInt((String)message.getPushBundle().get("pushSent"));
+        pushReceived = Integer.parseInt((String)message.getPushBundle().get("pushReceived"));
+        groupingId = (String)message.getPushBundle().get("groupingId");
     }
 
 
@@ -133,8 +137,8 @@ public class PushItem implements Parcelable {
         audience = in.readString();
         alert = in.readString();
         groupingId = in.readString();
-        pushSent = in.readInt();
-        pushReceived = in.readInt();
+        pushSentDateString = in.readString();
+        pushReceivedDateString = in.readString();
     }
 
 
@@ -150,7 +154,7 @@ public class PushItem implements Parcelable {
         dest.writeString(audience);
         dest.writeString(alert);
         dest.writeString(groupingId);
-        dest.writeInt(pushSent);
-        dest.writeInt(pushReceived);
+        dest.writeString(pushSentDateString);
+        dest.writeString(pushReceivedDateString);
     }
 }

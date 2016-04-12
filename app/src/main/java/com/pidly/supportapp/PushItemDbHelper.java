@@ -83,13 +83,19 @@ public class PushItemDbHelper extends DataManager {
 
     public void insertPushItem(PushItem item){
         ContentValues values = new ContentValues();
-        values.put("kind", item.getKind());
-        values.put("endPoint", item.getEndPoint());
-        values.put("audience", item.getAudience());
-        values.put("alert", item.getAlert());
-        values.put("groupingId", item.getGroupingId());
-        values.put("pushSent", item.getPushSent());
-        values.put("pushReceived", item.getPushReceived());
+        values.put(COLUMN_PUSH_KIND, item.getKind());
+        values.put(COLUMN_ENDPOINT, item.getEndPoint());
+        values.put(COLUMN_AUDIENCE, item.getAudience());
+        values.put(COLUMN_ALERT, item.getAlert());
+        values.put(COLUMN_GROUP_ID, item.getGroupingId());
+        values.put(COLUMN_CREATED_TIME, item.getPushSentDateString());
+        values.put(COLUMN_RECEIVED_TIME, item.getPushReceivedDateString());
+
+        Log.i(TAG, "Inserting data into DB");
+
+        Log.i(TAG, "kind: " + item.getKind() + " endpoint: " + item.getEndPoint() + " audience: " + item.getAudience() +
+                " alert: " + item.getAlert() + " groupingId: " + item.getGroupingId() + " pushSent " + item.getPushSentDateString() +
+                " pushReceived: " + item.getPushReceivedDateString());
 
         mDatabase.insert(PushItemDbHelper.TABLE_PUSHDATA, null, values);
     }
