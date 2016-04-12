@@ -37,18 +37,18 @@
         <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-8ebc9e9be96a913271d5255c9afad3f82de8b9d8.jar" />
     </item>
     <item
-        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.urbanairship.android/urbanairship-sdk/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="722f5bf7ff1e03d1f84ad119e03f5e42aafb6cfd">
-        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-8f17026421bac0c94768e2865462f5806024c53f.jar" />
-    </item>
-    <item
         jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
         <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-7153ff69e2198fed5ec18c499279671fb113e8d3.jar" />
+    </item>
+    <item
+        jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.urbanairship.android/urbanairship-sdk/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="722f5bf7ff1e03d1f84ad119e03f5e42aafb6cfd">
+        <dex dex="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/pre-dexed/debug/classes-8f17026421bac0c94768e2865462f5806024c53f.jar" />
     </item>
     <item
         jar="/Users/devinsmythe/Desktop/Sample_Apps/Android/ua-android-lib-6.4.1/SupportApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/classes.jar"

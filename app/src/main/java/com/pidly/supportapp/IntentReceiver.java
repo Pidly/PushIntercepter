@@ -36,6 +36,7 @@ public class IntentReceiver extends BaseIntentReceiver {
                     .putExtra("PUSH_ITEM", new PushItem(message));
 
 
+            Log.i(TAG, "Starting service");
             context.startService(intent);
 
 

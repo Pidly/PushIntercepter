@@ -5,17 +5,21 @@ import android.content.Context;
 import android.database.DatabaseErrorHandler;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteStatement;
+import android.util.Log;
 
 import com.urbanairship.util.DataManager;
 
 import java.sql.SQLException;
+import java.util.Locale;
 
 
 public class PushItemDbHelper extends DataManager {
     private SQLiteDatabase mDatabase;
 
-    public static final int DATABSE_VERSION = 1;
-    private static final String DATABSE_NAME = "PushInformation.db";
+    private static final String TAG = "PushItemDbHelper";
+
+    public static final int DATABASE_VERSION = 1;
+    private static final String DATABASE_NAME = "PushInformation.db";
 
     private static final String TABLE_PUSHDATA = "PUSHDATA";
 
@@ -41,7 +45,8 @@ public class PushItemDbHelper extends DataManager {
                     COLUMN_GROUP_ID + " INTEGER" + ")";
 
     public PushItemDbHelper(Context context) {
-        super(context, DATABSE_NAME, DATABSE_VERSION);
+        super(context, DATABASE_NAME, DATABASE_VERSION);
+        Log.i(TAG, "Creating DB");
     }
 
 
@@ -68,6 +73,7 @@ public class PushItemDbHelper extends DataManager {
     //Database Operations.
 
     public void open() throws SQLException{
+        Log.i(TAG, "Opening DB");
         mDatabase = this.getWritableDatabase();
     }
 
@@ -84,6 +90,8 @@ public class PushItemDbHelper extends DataManager {
         values.put("groupingId", item.getGroupingId());
         values.put("pushSent", item.getPushSent());
         values.put("pushReceived", item.getPushReceived());
+
+        mDatabase.insert(PushItemDbHelper.TABLE_PUSHDATA, null, values);
     }
 
     public void savePushItem(PushItem pushItem){

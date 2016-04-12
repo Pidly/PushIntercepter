@@ -8,9 +8,7 @@ import com.urbanairship.push.PushMessage;
 import java.util.Date;
 import java.util.Map;
 
-/**
- * Created by devinsmythe on 1/24/16.
- */
+
 public class PushItem implements Parcelable {
     private String kind;
     private String endPoint;

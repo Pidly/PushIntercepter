@@ -32,5 +32,6 @@
                 <category android:name="${applicationId}"/>
             </intent-filter>
         </receiver>
+        <service android:name=".PushIntentService" />
     </application>
 </manifest>
