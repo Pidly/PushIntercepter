@@ -23,6 +23,19 @@ public class MyApplication extends Application{
                 .setGcmSender("319839714290")
                 .build();
 
+        /*
+        App key, secret, gcm sender inside the gradle.properties file
+        add gradle.properties to gitignore.
+
+        Platform
+        version
+
+        they should never post notifications in android
+
+        look into action frameworks.  I could save DB info using actions.
+
+        rich message actions.
+         */
         UAirship.takeOff(this, options, new UAirship.OnReadyCallback() {
             @Override
             public void onAirshipReady(UAirship airship) {
