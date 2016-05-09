@@ -10,6 +10,15 @@ import java.util.Map;
 
 
 public class PushItem implements Parcelable {
+    public static String KIND_KEY = "kind";
+    public static String END_POINT_KEY = "endPoint";
+    public static String AUDIENCE_KEY = "audience";
+    public static String ALERT_KEY = "alert";
+    public static String GROUPING_ID_KEY = "groupingId";
+
+    public static String PUSHSENT_KEY = "pushSent";
+    public static String PUSHRECEIVED_KEY = "pushReceived";
+
     private String kind;
     private String endPoint;
     private String audience;
@@ -137,8 +146,8 @@ public class PushItem implements Parcelable {
         audience = in.readString();
         alert = in.readString();
         groupingId = in.readString();
-        pushSentDateString = in.readString();
-        pushReceivedDateString = in.readString();
+        pushSent = in.readInt();
+        pushReceived = in.readInt();
     }
 
 
@@ -154,7 +163,7 @@ public class PushItem implements Parcelable {
         dest.writeString(audience);
         dest.writeString(alert);
         dest.writeString(groupingId);
-        dest.writeString(pushSentDateString);
-        dest.writeString(pushReceivedDateString);
+        dest.writeInt(pushSent);
+        dest.writeInt(pushReceived);
     }
 }
