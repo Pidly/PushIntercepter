@@ -24,14 +24,26 @@
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
         android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
-        android:id="@+id/listItem"/>
+        android:id="@+id/pushType"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="35 Minutes"
         android:textSize="17dip"
         android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
-        android:layout_toRightOf="@+id/listItem"
-        android:layout_toEndOf="@+id/listItem"
+        android:layout_toRightOf="@+id/pushType"
+        android:layout_toEndOf="@+id/pushType"
+        android:id="@+id/timeReceived"
         android:layout_centerVertical="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pushTimeDelta"
+        android:layout_toRightOf="@+id/timeReceived"
+        android:layout_toEndOf="@+id/timeReceived"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+        android:textSize="17dip"
+        android:text="-"
+        />
 </RelativeLayout>

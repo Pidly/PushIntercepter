@@ -85,7 +85,7 @@
     <favorites_list name="SupportApp" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.479927">
+    <splitter split-orientation="horizontal" split-proportion="0.5159575">
       <split-first>
         <leaf>
           <file leaf-file-name="ExpandableListAdapter.java" pinned="false" current-in-tab="false">
@@ -110,18 +110,32 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PushItemDbHelper.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PushItemDbHelper.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushItemDbHelper.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7409396">
-                  <caret line="140" column="36" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="120" column="91" selection-start-line="120" selection-start-column="91" selection-end-line="120" selection-end-column="91" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#2079#2080#0" expanded="true" />
-                    <element signature="e#2116#2117#0" expanded="true" />
-                    <element signature="e#2671#2672#0" expanded="true" />
-                    <element signature="e#2704#2705#0" expanded="true" />
                     <element signature="e#3772#3782#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PushItemAdapter.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushItemAdapter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.48311076">
+                  <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#593#594#0" expanded="true" />
+                    <element signature="e#633#634#0" expanded="true" />
+                    <element signature="e#690#691#0" expanded="true" />
+                    <element signature="e#733#734#0" expanded="true" />
+                    <element signature="e#790#791#0" expanded="true" />
+                    <element signature="e#814#815#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -146,8 +160,6 @@
                   <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1086#1299#0" expanded="true" />
-                    <element signature="e#1298#1299#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -164,28 +176,6 @@
                   <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#2736#2737#0" expanded="true" />
-                    <element signature="e#2769#2770#0" expanded="true" />
-                    <element signature="e#2811#2812#0" expanded="true" />
-                    <element signature="e#2845#2846#0" expanded="true" />
-                    <element signature="e#2881#2882#0" expanded="true" />
-                    <element signature="e#2916#2917#0" expanded="true" />
-                    <element signature="e#2969#2970#0" expanded="true" />
-                    <element signature="e#3017#3018#0" expanded="true" />
-                    <element signature="e#3049#3050#0" expanded="true" />
-                    <element signature="e#3080#3081#0" expanded="true" />
-                    <element signature="e#3124#3125#0" expanded="true" />
-                    <element signature="e#3165#3166#0" expanded="true" />
-                    <element signature="e#3213#3214#0" expanded="true" />
-                    <element signature="e#3258#3259#0" expanded="true" />
-                    <element signature="e#3303#3304#0" expanded="true" />
-                    <element signature="e#3343#3344#0" expanded="true" />
-                    <element signature="e#3495#3496#0" expanded="true" />
-                    <element signature="e#3542#3543#0" expanded="true" />
-                    <element signature="e#3608#3609#0" expanded="true" />
-                    <element signature="e#3657#3658#0" expanded="true" />
-                    <element signature="e#4004#4005#0" expanded="true" />
-                    <element signature="e#4028#4029#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -198,22 +188,16 @@
                   <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#708#1144#0" expanded="true" />
-                    <element signature="e#1143#1144#0" expanded="true" />
-                    <element signature="e#1250#1492#0" expanded="true" />
-                    <element signature="e#1491#1492#0" expanded="true" />
-                    <element signature="e#1621#1804#0" expanded="true" />
-                    <element signature="e#1803#1804#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PushListActivity.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PushListActivity.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushListActivity.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.66040266">
-                  <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -231,11 +215,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="list_item.xml" pinned="false" current-in-tab="false">
+          <file leaf-file-name="list_item.xml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-18.103449">
-                  <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+                <state vertical-scroll-proportion="0.57877815">
+                  <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -247,7 +231,7 @@
           <file leaf-file-name="row_layout.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_layout.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.172414">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
                   <folding />
                 </state>
@@ -260,7 +244,7 @@
           <file leaf-file-name="activity_push_list.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_push_list.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-4.6551723">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
                   <folding />
                 </state>
@@ -278,8 +262,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
-        <option value="Class" />
         <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -1628,7 +1612,6 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/assets.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/push_list_group.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/ExpandableListAdapter.java" />
@@ -1644,6 +1627,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushItem.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushItemDbHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushItemAdapter.java" />
       </list>
     </option>
   </component>
@@ -1658,10 +1643,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="502" />
-    <option name="y" value="33" />
-    <option name="width" value="2057" />
-    <option name="height" value="1407" />
+    <option name="x" value="36" />
+    <option name="y" value="23" />
+    <option name="width" value="1804" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1689,6 +1674,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1781,9 +1769,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -1989,7 +1974,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="502" y="33" width="2057" height="1407" extended-state="0" />
+    <frame x="36" y="23" width="1804" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2000,7 +1985,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40123934" sideWeight="0.4983514" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2522996" sideWeight="0.4983514" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2009,7 +1994,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30822444" sideWeight="0.5016486" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15980148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14642452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972208" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2045,16 +2030,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/push_list_group.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2107,28 +2082,6 @@
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2736#2737#0" expanded="true" />
-            <element signature="e#2769#2770#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
-            <element signature="e#2845#2846#0" expanded="true" />
-            <element signature="e#2881#2882#0" expanded="true" />
-            <element signature="e#2916#2917#0" expanded="true" />
-            <element signature="e#2969#2970#0" expanded="true" />
-            <element signature="e#3017#3018#0" expanded="true" />
-            <element signature="e#3049#3050#0" expanded="true" />
-            <element signature="e#3080#3081#0" expanded="true" />
-            <element signature="e#3124#3125#0" expanded="true" />
-            <element signature="e#3165#3166#0" expanded="true" />
-            <element signature="e#3213#3214#0" expanded="true" />
-            <element signature="e#3258#3259#0" expanded="true" />
-            <element signature="e#3303#3304#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-            <element signature="e#3495#3496#0" expanded="true" />
-            <element signature="e#3542#3543#0" expanded="true" />
-            <element signature="e#3608#3609#0" expanded="true" />
-            <element signature="e#3657#3658#0" expanded="true" />
-            <element signature="e#4004#4005#0" expanded="true" />
-            <element signature="e#4028#4029#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2378,7 +2331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.058915947">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2416,7 +2368,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_push_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6551723">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding />
         </state>
@@ -2435,19 +2387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.172414">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.103449">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -2459,7 +2400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2469,8 +2409,6 @@
           <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1086#1299#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2495,54 +2433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2736#2737#0" expanded="true" />
-            <element signature="e#2769#2770#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
-            <element signature="e#2845#2846#0" expanded="true" />
-            <element signature="e#2881#2882#0" expanded="true" />
-            <element signature="e#2916#2917#0" expanded="true" />
-            <element signature="e#2969#2970#0" expanded="true" />
-            <element signature="e#3017#3018#0" expanded="true" />
-            <element signature="e#3049#3050#0" expanded="true" />
-            <element signature="e#3080#3081#0" expanded="true" />
-            <element signature="e#3124#3125#0" expanded="true" />
-            <element signature="e#3165#3166#0" expanded="true" />
-            <element signature="e#3213#3214#0" expanded="true" />
-            <element signature="e#3258#3259#0" expanded="true" />
-            <element signature="e#3303#3304#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-            <element signature="e#3495#3496#0" expanded="true" />
-            <element signature="e#3542#3543#0" expanded="true" />
-            <element signature="e#3608#3609#0" expanded="true" />
-            <element signature="e#3657#3658#0" expanded="true" />
-            <element signature="e#4004#4005#0" expanded="true" />
-            <element signature="e#4028#4029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#708#1144#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1250#1492#0" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-            <element signature="e#1621#1804#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushIntentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2553,16 +2443,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushItemDbHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7409396">
-          <caret line="140" column="36" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2671#2672#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushItemDbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="120" column="91" selection-start-line="120" selection-start-column="91" selection-end-line="120" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#3772#3782#0" expanded="true" />
           </folding>
         </state>
@@ -2570,10 +2476,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66040266">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57877815">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pidly/supportapp/PushItemAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48311076">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
           </folding>
         </state>
       </provider>
