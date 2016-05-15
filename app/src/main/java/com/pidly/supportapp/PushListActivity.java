@@ -34,6 +34,8 @@ public class PushListActivity extends ListActivity {
     String[] arrayItems;
     private List<String> listValues;
 
+    List<PushItem> mPushItems;
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -45,22 +47,28 @@ public class PushListActivity extends ListActivity {
         prepareListData();
 
         //ArrayAdapter requires the resource ID to be a TextView
-        setListAdapter(new ArrayAdapter<String>(this, R.layout.row_layout, R.id.listText, listValues));
+        PushItem[] pushItems = new PushItem[mPushItems.size()];
+        pushItems = mPushItems.toArray(pushItems);
+
+        PushItemAdapter pushItemAdapter = new PushItemAdapter(this, pushItems);
+
+        setListAdapter(pushItemAdapter);
+        //setListAdapter(new ArrayAdapter<String>(this, R.layout.row_layout, R.id.listText, listValues));
     }
 
     private void prepareListData() {
         Log.i(TAG, "Preparing list data");
 
-        List<PushItem> pushItems;
         listValues = new ArrayList<String>();
 
         PushItemDbHelper dbHelper = new PushItemDbHelper(getApplicationContext());
 
         try{
             dbHelper.open();
-            pushItems = dbHelper.getAllItems();
+            mPushItems = dbHelper.getAllItems();
 
-            for(PushItem item : pushItems){
+
+            for(PushItem item : mPushItems){
                 if(item.getAlert() != null){
                     listValues.add(item.getAudience());
                 }

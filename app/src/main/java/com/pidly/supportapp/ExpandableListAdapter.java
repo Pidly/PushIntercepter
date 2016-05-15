@@ -90,7 +90,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter{
         }
 
         //set text for the child items
-        TextView textViewChild = (TextView)convertView.findViewById(R.id.listItem);
+        TextView textViewChild = (TextView)convertView.findViewById(R.id.pushType);
         textViewChild.setText(childText);
 
         return convertView;

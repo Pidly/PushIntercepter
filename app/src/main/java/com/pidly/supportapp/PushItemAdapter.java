@@ -54,6 +54,9 @@ public class PushItemAdapter extends BaseAdapter{
 
         PushItem pushItem = mPushItems[position];
 
+        holder.pushTypeLabel.setText(pushItem.getKind());
+        holder.pushTimeReceived.setText(pushItem.getPushReceivedDateString());
+        holder.pushTimeDelta.setText(pushItem.getPushSentDateString());
 
         return convertView;
     }
